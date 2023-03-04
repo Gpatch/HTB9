@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-import MapChart from "./MapChart";
+import MapChart from "./components/MapChart";
 
 export default function App() {
   return (
