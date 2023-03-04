@@ -2,7 +2,7 @@ import spotipy
 from spotipy.oauth2 import SpotifyClientCredentials
 
 sp = spotipy.Spotify(auth_manager=SpotifyClientCredentials(client_id="b2fdba42e5ea4b7c87ea12c68d850c62",
-														   client_secret="32fda940160c49c0a0989b336eb9f79b"))
+														   client_secret="its a secret"))
 
 
 def getSongs(playlistURI):
@@ -17,7 +17,6 @@ def getSongs(playlistURI):
 		uri = track['uri']
 		uris.append(uri)
 
-	# print(uris)
 	return uris
 
 
