@@ -26,7 +26,7 @@
             "type": "Polygon",
             "arcs": [[18, 19, 20, 21, 22]],
             "id": "ARE",
-            "properties": { "name": "United Arab Emirates" }
+            "properties": { "name": "UAE" }
           },
           {
             "type": "MultiPolygon",
@@ -1246,7 +1246,7 @@
               [[-144, 702, -142, 703]]
             ],
             "id": "USA",
-            "properties": { "name": "United States" }
+            "properties": { "name": "USA" }
           },
           {
             "type": "Polygon",

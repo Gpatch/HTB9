@@ -1,0 +1,23 @@
+.checkboxes-container {
+    margin: 1rem;
+  }
+  
+  .checkboxes {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .checkbox-container {
+    display: flex;
+    align-items: center;
+    margin: 0.2rem 0; 
+  }
+  
+  label {
+    margin-left: 0.5rem;
+  }
+  
+  input[type="checkbox"] {
+    margin-right: 0.5rem;
+  }
+  
